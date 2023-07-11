@@ -214,6 +214,9 @@ span {
     line-height: 30px;
 }
 
+
+/* Latest Deal */
+
 .latest-deal-container {
     background-image: url('./images/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -221,7 +224,7 @@ span {
     width: auto;
     height: 390px;
     border-radius: 8px;
-    margin: 100px 0px 100px 360px;
+    margin: 100px 0px 20px 360px;
     padding-top: 150px;
 }
 
@@ -252,7 +255,7 @@ span {
     margin: 10px 0px 20px 400px;
 }
 
-.btn-primary-last{
+.btn-primary-last {
     border: none;
     border-radius: 8px;
     color: white;
@@ -260,4 +263,38 @@ span {
     display: inline-flex;
     padding: 15px 23px;
     font-size: 18px;
+}
+
+/* Footer Section Style */
+
+.ftr-main {
+    background: #111010;
+    width: 100%;
+    height: 350px;
+}
+
+.ftr-header,
+.ftr-para-one,
+.ftr-para-two {
+    color: white;
+
+}
+
+.ftr-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.ftr-para-one{
+    margin-bottom: 18px;
+}
+.ftr-para-two{
+    color: rgba(255, 255, 255, 0.40);
 }
