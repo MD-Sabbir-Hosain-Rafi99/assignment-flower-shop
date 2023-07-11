@@ -81,11 +81,6 @@
 }
 
 
-.pink-flowers-section{
-    
-}
-
-
 .pink-flowers {
     display: flex;
     justify-content: space-around;
@@ -131,4 +126,10 @@
     width: 205px;
     height: 340px;
     margin: 50px 0px 0px 70px;
+}
+
+.underline{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 470px 100px 470px;
 }
