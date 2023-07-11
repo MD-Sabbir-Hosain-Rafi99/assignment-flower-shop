@@ -80,6 +80,7 @@
     line-height: 30px;
 }
 
+/* Pink flower tree section */
 
 .pink-flowers {
     display: flex;
@@ -128,8 +129,50 @@
     margin: 50px 0px 0px 70px;
 }
 
-.underline{
+.underline {
     display: flex;
     justify-content: space-between;
     margin: 0px 470px 100px 470px;
+}
+
+
+.hot-deal-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 600px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+span {
+    color: #E55473;
+}
+
+.hot-deal-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hot-deal-para {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hot-deal-text {
+    text-align: center;
+    margin-left: 300px;
+}
+
+.rose{
+    margin-right: 300px;
 }
