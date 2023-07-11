@@ -267,7 +267,9 @@ span {
     padding: 15px 23px;
     font-size: 18px;
 }
-
+.latest-deal-text{
+    margin-left: 24px;
+}
 /* Footer Section Style */
 
 .ftr-main {
