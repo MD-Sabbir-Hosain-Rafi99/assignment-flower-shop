@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Banner Section Style */
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -50,6 +51,84 @@
     padding: 20px 43px;
     font-size: 18px;
 }
-.title-one, .para-one, .btn-primary{
+
+.title-one,
+.para-one,
+.btn-primary {
     margin-bottom: 25px;
+}
+
+
+.featured-header {
+    color: #272727;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.featured-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.featured-para {
+    color: #272727;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.pink-flowers-section{
+    
+}
+
+
+.pink-flowers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 350px 20px 350px;
+}
+
+.pink-one-container {
+    width: 350px;
+    height: 390px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    /* margin-left: 380px; */
+}
+
+.pink-one {
+    width: 220px;
+    height: 308px;
+    margin: 82px 0px 0px 65px;
+}
+
+.pink-two-container {
+    width: 350px;
+    height: 390px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.pink-two {
+    width: 250px;
+    height: 308px;
+    margin: 82px 0px 0px 65px;
+}
+
+.pink-three-container {
+    width: 350px;
+    height: 390px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.pink-three {
+    width: 205px;
+    height: 340px;
+    margin: 50px 0px 0px 70px;
 }
