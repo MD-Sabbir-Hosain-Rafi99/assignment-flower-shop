@@ -94,7 +94,6 @@
     height: 390px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    /* margin-left: 380px; */
 }
 
 .pink-one {
@@ -136,12 +135,15 @@
 }
 
 
+
+
+/* Hot Deal Banner Section */
 .hot-deal-banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: auto;
-    height: 600px;
+    height: 550px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
@@ -154,7 +156,7 @@ span {
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .hot-deal-para {
@@ -165,14 +167,17 @@ span {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .hot-deal-text {
     text-align: center;
+    margin-top: 80px;
     margin-left: 300px;
 }
 
-.rose{
+.rose {
     margin-right: 300px;
+    width: auto;
+    height: 400px;
 }
